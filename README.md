@@ -74,12 +74,12 @@ IAM is a core pillar of modern cybersecurity. My goal is to show not just theore
 
 ## 📧 About Me
 
-**Janaya [Last Name]**  
+**Janaya Hoskins**  
 Cybersecurity Technology (M.S.)  
 Former IT Cybersecurity Specialist (IAM/PAM Focus)  
 GitHub: [github.com/IAM-SEC-Janaya](https://github.com/IAM-SEC-Janaya)  
-LinkedIn: *[Insert your LinkedIn URL]*  
-Email: *[your professional email]*
+LinkedIn: *[(https://www.linkedin.com/in/janaya-hoskins)]*  
+Email: *[Amor.janaya@icloud.com]*
 
 ---
 
