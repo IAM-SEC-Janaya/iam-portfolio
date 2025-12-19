@@ -4,6 +4,8 @@ This document describes a role-based access control (RBAC) model designed to sup
 
 RBAC assigns access based on job function rather than individual user requests, reducing operational overhead and security risk.
 
+The RBAC role matrix is provided as an Excel file to reflect how access models are commonly documented, reviewed, and governed in enterprise IAM environments.
+
 ---
 
 ## RBAC Design Principles
