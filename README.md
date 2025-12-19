@@ -1,86 +1,94 @@
-# 🔐 Identity & Access Management (IAM) Portfolio  
-*Built by Janaya — Cybersecurity Specialist with IAM/PAM experience*
+# Identity & Access Management (IAM) Portfolio  
+*Built by Janaya — Cybersecurity Specialist with IAM & PAM experience*
 
 ---
 
-## 👋 Welcome!
+## Welcome
 
-This portfolio is a hands-on demonstration of my skills, knowledge, and experience in **Identity & Access Management (IAM)**. My focus is on delivering **secure, scalable, and compliant access control systems** across enterprise and cloud environments — with additional experience in **public sector** and **healthcare IAM** use cases.
+This repository is a hands-on IAM portfolio demonstrating how identity, access, and privileged access are designed, governed, and secured in enterprise environments.
 
----
-
-## 🧠 What You’ll Find in This Portfolio
-
-| Project Area | What’s Included |
-|--------------|-----------------|
-| **Identity Lifecycle Management** | Provisioning, deprovisioning, onboarding, offboarding workflows |
-| **Access Control Models** | RBAC & ABAC examples with policy templates and role matrices |
-| **MFA & SSO Implementation** | Okta and Azure AD integration walkthroughs, sample configurations |
-| **Access Reviews & Audits** | Mock certification campaigns, reports, and remediation planning |
-| **Compliance Mapping** | Policy documents aligned with NIST 800-53 and HIPAA Security Rule |
-| **IAM Automation** | Sample PowerShell and Python scripts for provisioning and access tasks |
-| **Healthcare IAM (Bonus)** | Epic-style user role design, ePHI access policy, break-glass scenarios |
+The focus is on **practical IAM implementation**, including lifecycle management, access control models, access reviews, and privileged access governance. Artifacts are written to reflect real-world enterprise and regulated-environment practices.
 
 ---
 
-## 🛠️ Skills Demonstrated
+## What You’ll Find in This Portfolio
 
-- Identity Governance and Administration (IGA)
+### Core IAM Domains (Implemented)
+
+- **Identity Lifecycle Management**  
+  Provisioning, role changes, deprovisioning workflows, automation examples, and lifecycle diagrams.
+
+- **Access Control Models**  
+  Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC), role matrices, and hybrid model comparisons.
+
+- **Access Reviews & Certification**  
+  Governance-focused access review workflows, certification samples, and remediation tracking.
+
+- **Privileged Access Management (PAM)**  
+  Privileged access request workflows, break-glass access handling, governance controls, and CyberArk-aligned examples.
+
+---
+
+## Skills Demonstrated
+
+- Identity Governance & Administration (IGA)
 - Privileged Access Management (PAM)
-- Role-Based Access Control (RBAC) & Attribute-Based Access Control (ABAC)
-- Single Sign-On (SSO) & Multi-Factor Authentication (MFA)
-- IAM Policy Development & Documentation
-- Compliance Alignment: HIPAA, HITRUST, NIST SP 800-53
-- Audit Support & Access Certification
-- Scripting: PowerShell, basic Python
+- RBAC & ABAC access design
+- Least privilege enforcement
+- Access reviews and certification
+- Audit readiness and evidence documentation
+- IAM & PAM workflow documentation
+- PowerShell-based IAM automation concepts
 
 ---
 
-## 📂 Folder Structure (Projects in Progress)
+## Repository Structure
 
 - `identity-lifecycle/`  
-  Provisioning/deprovisioning examples, lifecycle diagrams, access request workflows
+  Identity provisioning, role changes, deprovisioning, workflow diagrams, and automation examples
 
 - `access-control-models/`  
-  Role matrix (RBAC), ABAC policy logic, Excel templates
-
-- `sso-mfa-demo/`  
-  MFA setup, SSO integrations, screenshots from Okta/Azure
+  RBAC role matrices, ABAC concepts, and access model comparisons
 
 - `access-review/`  
-  Access review templates, remediation logs, user entitlement reports
+  Access certification documentation, review samples, and remediation tracking
 
-- `compliance-policies/`  
-  IAM-related policies (least privilege, MFA, break-glass), control mappings
+- `pam/`  
+  Privileged access workflows, break-glass access, and PAM governance controls
 
-- `scripts-and-tools/`  
-  PowerShell for provisioning, Python for IAM role logic, sample automation
-
-- `healthcare-use-case/` *(Optional bonus folder)*  
-  Epic-style role provisioning, ePHI access mapping, SMART on FHIR notes
+Each folder includes a README outlining scope and recommended reading order.
 
 ---
 
-## 📌 Why This Matters
+## Planned Expansions
 
-IAM is a core pillar of modern cybersecurity. My goal is to show not just theoretical knowledge, but **realistic, hands-on capabilities** — including:
-- Policy enforcement
-- Lifecycle management
-- Automation
-- Access reviews
-- Security governance
+The following areas will be added as the portfolio continues to evolve:
+
+- SSO and MFA implementation examples
+- Compliance mapping (NIST 800-53, HIPAA Security Rule)
+- Expanded automation examples
+- Healthcare IAM use cases (EHR access, break-glass scenarios)
 
 ---
 
-## 📧 About Me
+## Why This Matters
+
+IAM is a foundational security capability. This portfolio demonstrates not only technical concepts, but also governance, audit awareness, and security decision-making across the identity lifecycle.
+
+The goal is to reflect how IAM operates as a **program**, not just a set of tools.
+
+---
+
+## About Me
 
 **Janaya Hoskins**  
-Cybersecurity Technology (M.S.)  
-Former IT Cybersecurity Specialist (IAM/PAM Focus)  
-GitHub: [github.com/IAM-SEC-Janaya](https://github.com/IAM-SEC-Janaya)  
-LinkedIn: *[(https://www.linkedin.com/in/janaya-hoskins)]*  
-Email: *[Amor.janaya@icloud.com]*
+M.S. Cybersecurity Technology  
+Cybersecurity Specialist (IAM / PAM Focus)
+
+- GitHub: https://github.com/IAM-SEC-Janaya  
+- LinkedIn: https://www.linkedin.com/in/janaya-hoskins  
+- Email: amor.janaya@icloud.com
 
 ---
 
-✅ *More projects coming soon. Stay tuned as I build and expand this portfolio.*
+More projects will be added as this portfolio continues to grow.
