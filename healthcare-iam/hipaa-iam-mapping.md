@@ -1,62 +1,120 @@
-# HIPAA Security Rule ↔ IAM Mapping (Healthcare IAM)
+# HIPAA Security Rule ↔ Identity & Access Management Mapping
 
-This document maps core HIPAA Security Rule expectations to IAM controls and evidence artifacts demonstrated in this portfolio. The focus is on access control, auditability, and workforce access governance related to ePHI.
+This document maps key HIPAA Security Rule requirements to Identity and Access Management (IAM) controls demonstrated in this portfolio. The focus is on protecting electronic Protected Health Information (ePHI) through controlled access, accountability, and auditability.
 
----
-
-## HIPAA: Access Control (45 CFR § 164.312(a)(1))
-
-**Expectation:** Limit system access to authorized users.
-
-**IAM Evidence / Portfolio Artifacts:**
-- RBAC role design and role matrices (`access-control-models/`, `healthcare-iam/`)
-- Least privilege enforcement (`access-control-models/`)
-- Identity lifecycle controls (`identity-lifecycle/`)
+This mapping reflects how healthcare organizations document IAM alignment during security assessments and audits.
 
 ---
 
-## HIPAA: Unique User Identification (164.312(a)(2)(i))
+## HIPAA Security Rule: Access Control  
+**45 CFR §164.312(a)(1)**
 
-**Expectation:** Identify and track user activity uniquely.
+### Requirement
+Implement technical policies and procedures to allow access to ePHI only to authorized persons or software programs.
 
-**IAM Evidence / Portfolio Artifacts:**
-- Lifecycle provisioning processes (`identity-lifecycle/`)
-- Account management and role assignment workflows
-- Audit logging expectations in PAM and break-glass docs
+### IAM Controls Supporting This Requirement
+- Role-Based Access Control (RBAC) for clinical and administrative users
+- Minimum necessary access enforcement
+- Separation of clinical and non-clinical access
+- Privileged access governance for system administrators
 
----
-
-## HIPAA: Emergency Access Procedure (164.312(a)(2)(ii))
-
-**Expectation:** Ensure authorized access to ePHI during emergencies.
-
-**IAM Evidence / Portfolio Artifacts:**
-- Break-glass EHR workflow (`healthcare-iam/break-glass-ehr-access.md`)
-- Break-glass privileged access design (`pam/break-glass-privileged-access.md`)
+### Portfolio Evidence
+- `healthcare-iam/healthcare-roles-rbac-matrix.xlsx`
+- `access-control-models/`
+- `pam/`
 
 ---
 
-## HIPAA: Audit Controls (164.312(b))
+## HIPAA: Unique User Identification  
+**45 CFR §164.312(a)(2)(i)**
 
-**Expectation:** Record and examine system activity related to ePHI.
+### Requirement
+Assign a unique name and/or number for identifying and tracking user identity.
 
-**IAM Evidence / Portfolio Artifacts:**
-- Access review processes and remediation (`access-review/`)
-- PAM session monitoring and logging (`pam/`)
-- NIST IA/AC mapping (`nist-800-53-mapping/`)
+### IAM Controls Supporting This Requirement
+- Unique user identities created during onboarding
+- Lifecycle management for user accounts
+- Removal of access upon termination
+- Prevention of shared accounts
+
+### Portfolio Evidence
+- `identity-lifecycle/`
+- `access-review/`
 
 ---
 
-## HIPAA: Person or Entity Authentication (164.312(d))
+## HIPAA: Emergency Access Procedure  
+**45 CFR §164.312(a)(2)(ii)**
 
-**Expectation:** Verify identity before granting access.
+### Requirement
+Establish procedures for obtaining necessary ePHI access during an emergency.
 
-**IAM Evidence / Portfolio Artifacts:**
-- IAM lifecycle identity creation and validation (`identity-lifecycle/`)
-- Authentication controls referenced in PAM workflows (`pam/`)
+### IAM Controls Supporting This Requirement
+- Break-glass access mechanisms
+- Time-bound emergency access
+- Mandatory justification for emergency access
+- Post-event access review
+
+### Portfolio Evidence
+- `healthcare-iam/break-glass-ehr-access.md`
+- `pam/break-glass-privileged-access.md`
+
+---
+
+## HIPAA: Audit Controls  
+**45 CFR §164.312(b)**
+
+### Requirement
+Implement mechanisms to record and examine activity in systems containing ePHI.
+
+### IAM Controls Supporting This Requirement
+- Access logging and monitoring
+- Privileged session monitoring
+- Access review and remediation tracking
+- Retention of audit evidence
+
+### Portfolio Evidence
+- `access-review/`
+- `pam/`
+- `nist-800-53-mapping/`
+
+---
+
+## HIPAA: Person or Entity Authentication  
+**45 CFR §164.312(d)**
+
+### Requirement
+Implement procedures to verify that a person or entity seeking access to ePHI is the one claimed.
+
+### IAM Controls Supporting This Requirement
+- Identity verification during onboarding
+- Authentication enforcement prior to access
+- Elevated authentication for privileged actions
+
+### Portfolio Evidence
+- `identity-lifecycle/`
+- `pam/`
+
+---
+
+## HIPAA: Transmission Security (IAM Support)  
+**45 CFR §164.312(e)(1)**
+
+### Requirement
+Protect ePHI against unauthorized access during electronic transmission.
+
+### IAM Relevance
+While primarily a network control, IAM supports transmission security by:
+- Enforcing authenticated access prior to data exchange
+- Supporting application-level authorization
+- Limiting access to trusted systems and users
+
+### Portfolio Evidence
+- IAM access control models
+- Identity governance processes
 
 ---
 
 ## Summary
 
-Healthcare IAM must support clinical operations while protecting ePHI through least privilege, traceable identity controls, emergency procedures, and ongoing governance. These portfolio artifacts demonstrate how IAM controls are designed, documented, and governed to meet those expectations.
+Healthcare IAM plays a critical role in HIPAA compliance by ensuring that access to ePHI is authorized, traceable, reviewable, and restricted to the minimum necessary. The IAM controls demonstrated in this portfolio support both operational security and regulatory compliance expectations in healthcare environments.
