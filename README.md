@@ -68,25 +68,35 @@ This portfolio is organized to reflect IAM as an **enterprise security program**
 
 ## 📂 Repository Structure
 
-- `core-iam/identity-lifecycle/`  
-  Identity provisioning, role changes, deprovisioning, workflow diagrams, and automation examples
+### 🔹 Core IAM
+- [`core-iam/identity-lifecycle/`](./core-iam/identity-lifecycle/)  
+  Identity provisioning, role changes, deprovisioning, lifecycle diagrams, and automation examples.
 
-- `core-iam/access-control-models/`  
-  RBAC role matrices, ABAC concepts, and access model comparisons
+- [`core-iam/access-control-models/`](./core-iam/access-control-models/)  
+  RBAC and ABAC models, role matrices, and access design comparisons.
 
-- `core-iam/pam/`  
-  Privileged access workflows, break-glass access, and PAM governance controls
+- [`core-iam/pam/`](./core-iam/pam/)  
+  Privileged access request workflows, break-glass access, session governance, and PAM controls.
 
-- `governance/access-review/`  
-  Access certification documentation, review samples, and remediation tracking
+---
 
-- `compliance/nist-800-53-mapping/`  
-  IAM control mapping to NIST SP 800-53 (Rev. 5)
+### 🔹 Governance
+- [`governance/access-review/`](./governance/access-review/)  
+  Access certification workflows, entitlement validation, and remediation tracking.
 
-- `industry-use-cases/healthcare-iam/`  
-  Healthcare IAM artifacts including EHR role design, break-glass access, HIPAA mapping, and healthcare IAM capstone summary
+---
 
-Each folder includes a README outlining scope and recommended reading order.
+### 🔹 Compliance & Framework Alignment
+- [`compliance/nist-800-53-mapping/`](./compliance/nist-800-53-mapping/)  
+  IAM control mapping to NIST SP 800-53 (IA and AC families) to support audit readiness.
+
+---
+
+### 🔹 Industry Use Cases
+- [`industry-use-cases/healthcare-iam/`](./industry-use-cases/healthcare-iam/)  
+  Healthcare IAM artifacts including EHR-style RBAC design, break-glass access, HIPAA mapping, and healthcare IAM capstone summary.
+
+Each folder contains a README outlining scope and recommended reading order.
 
 ---
 
