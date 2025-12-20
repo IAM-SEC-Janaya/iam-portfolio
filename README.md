@@ -15,6 +15,7 @@ The focus is on **practical IAM implementation**, including identity lifecycle m
 
 This portfolio is organized to reflect IAM as an **enterprise security program**, not a collection of isolated tools.
 
+
 ### Core IAM Domains (Implemented)
 
 - **Identity Lifecycle Management**  
@@ -68,35 +69,44 @@ This portfolio is organized to reflect IAM as an **enterprise security program**
 
 ## 📂 Repository Structure
 
-### 🔹 Core IAM
-- [`core-iam/identity-lifecycle/`](./core-iam/identity-lifecycle/)  
-  Identity provisioning, role changes, deprovisioning, lifecycle diagrams, and automation examples.
+This repository is organized to demonstrate Identity & Access Management as an enterprise security discipline, with clear separation between core IAM functions, governance, compliance, and industry-specific use cases.
 
-- [`core-iam/access-control-models/`](./core-iam/access-control-models/)  
-  RBAC and ABAC models, role matrices, and access design comparisons.
-
-- [`core-iam/pam/`](./core-iam/pam/)  
-  Privileged access request workflows, break-glass access, session governance, and PAM controls.
+### 🔹 Identity Lifecycle Management
+- [`identity-lifecycle/`](./identity-lifecycle/)  
+  Identity provisioning, role changes, deprovisioning workflows, lifecycle diagrams, and onboarding automation examples.
 
 ---
 
-### 🔹 Governance
-- [`governance/access-review/`](./governance/access-review/)  
-  Access certification workflows, entitlement validation, and remediation tracking.
+### 🔹 Access Control Models
+- [`access-control-models/`](./access-control-models/)  
+  Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC), role matrices, and access model comparisons supporting least privilege.
 
 ---
 
-### 🔹 Compliance & Framework Alignment
-- [`compliance/nist-800-53-mapping/`](./compliance/nist-800-53-mapping/)  
-  IAM control mapping to NIST SP 800-53 (IA and AC families) to support audit readiness.
+### 🔹 Privileged Access Management (PAM)
+- [`pam/`](./pam/)  
+  Privileged access request workflows, break-glass access handling, governance controls, and PAM control documentation.
+
+---
+
+### 🔹 Access Governance & Reviews
+- [`access-review/`](./access-review/)  
+  Access certification workflows, entitlement validation, reviewer decision tracking, and remediation documentation.
+
+---
+
+### 🔹 Compliance & Framework Mapping
+- [`nist-800-53-mapping/`](./nist-800-53-mapping/)  
+  IAM control mapping aligned to NIST SP 800-53 (IA and AC control families) to support audit and compliance readiness.
 
 ---
 
 ### 🔹 Industry Use Cases
-- [`industry-use-cases/healthcare-iam/`](./industry-use-cases/healthcare-iam/)  
-  Healthcare IAM artifacts including EHR-style RBAC design, break-glass access, HIPAA mapping, and healthcare IAM capstone summary.
+- [`healthcare-iam/`](./healthcare-iam/)  
+  Healthcare-focused IAM artifacts including EHR-style RBAC role design, break-glass emergency access workflows, HIPAA Security Rule alignment, and healthcare IAM capstone documentation.
 
-Each folder contains a README outlining scope and recommended reading order.
+Each folder includes a README outlining scope, artifacts, and recommended reading order.
+
 
 ---
 
