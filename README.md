@@ -11,43 +11,53 @@ The focus is on **practical IAM implementation**, including identity lifecycle m
 
 ---
 
+## 🧭 Vendor-Neutral IAM Approach
+
+All artifacts in this repository are designed using a **vendor-neutral IAM approach**.  
+Concepts, workflows, and controls are based on industry standards, security frameworks, and enterprise IAM practices rather than dependence on a single product or platform.
+
+Where vendor examples are referenced (for example, CyberArk or EHR platforms), they are used illustratively to demonstrate common implementation patterns—not to imply product dependency.
+
+This approach ensures the work is transferable across organizations, industries, and technology stacks.
+
+---
+
 ## 🧠 What You’ll Find in This Portfolio
 
 This portfolio is organized to reflect IAM as an **enterprise security program**, not a collection of isolated tools.
 
-
-### Core IAM Domains (Implemented)
+### 🔹 Core IAM Domains (Implemented)
 
 - **Identity Lifecycle Management**  
-  User provisioning, role changes, deprovisioning workflows, lifecycle diagrams, and automation examples.
+  User provisioning, role changes, and deprovisioning workflows supported by lifecycle diagrams and automation examples.
 
 - **Access Control Models**  
-  Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC), role matrices, and RBAC vs ABAC comparisons.
+  Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC), role matrices, and access model comparisons supporting least-privilege access.
 
 - **Privileged Access Management (PAM)**  
-  Privileged access request workflows, break-glass access handling, governance controls, and CyberArk-aligned examples.
+  Privileged access request workflows, break-glass access handling, governance controls, and PAM design aligned to enterprise best practices.
 
 ---
 
-### Governance
+### 🔹 Governance
 
 - **Access Reviews & Certification**  
-  Governance-focused access review workflows, certification samples, entitlement validation, and remediation tracking.
+  Governance-focused access review workflows, entitlement validation, reviewer decision tracking, and remediation documentation.
 
 ---
 
-### Compliance & Framework Alignment
+### 🔹 Compliance & Framework Alignment
 
 - **Security Framework Mapping**  
-  IAM control alignment with NIST SP 800-53 (IA and AC families), supporting audit readiness and compliance documentation.
+  IAM control mapping aligned to **NIST SP 800-53 (IA and AC control families)** to support audit readiness and compliance activities.
 
 ---
 
-### Industry Use Cases (Applied Learning)
+### 🔹 Industry Use Cases (Applied Learning)
 
 - **Healthcare IAM**  
-  Healthcare-focused IAM artifacts demonstrating how IAM principles apply in regulated healthcare environments.  
-  Includes EHR-style RBAC role design, clinical vs administrative access separation, break-glass (emergency) access workflows, HIPAA Security Rule alignment, and healthcare IAM governance documentation.
+  A healthcare-focused IAM extension demonstrating how IAM principles apply in regulated healthcare environments.  
+  Artifacts include EHR-style RBAC role design, clinical vs administrative access separation, break-glass (emergency) access workflows, HIPAA Security Rule alignment, and healthcare IAM governance documentation.
 
 > *Industry use cases demonstrate applied learning and domain adaptation, not over-claimed production experience.*
 
@@ -59,7 +69,7 @@ This portfolio is organized to reflect IAM as an **enterprise security program**
 - Identity Lifecycle Management (Provisioning & Deprovisioning)
 - Privileged Access Management (PAM)
 - RBAC & ABAC access design
-- Least privilege enforcement
+- Least-privilege enforcement
 - Access reviews and certification campaigns
 - Audit readiness and evidence documentation
 - IAM & PAM workflow documentation
@@ -69,7 +79,7 @@ This portfolio is organized to reflect IAM as an **enterprise security program**
 
 ## 📂 Repository Structure
 
-This repository is organized to demonstrate Identity & Access Management as an enterprise security discipline, with clear separation between core IAM functions, governance, compliance, and industry-specific use cases.
+This repository uses clear, domain-based organization to support readability and navigation.
 
 ### 🔹 Identity Lifecycle Management
 - [`identity-lifecycle/`](./identity-lifecycle/)  
@@ -79,34 +89,33 @@ This repository is organized to demonstrate Identity & Access Management as an e
 
 ### 🔹 Access Control Models
 - [`access-control-models/`](./access-control-models/)  
-  Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC), role matrices, and access model comparisons supporting least privilege.
+  RBAC and ABAC models, role matrices, and access design comparisons.
 
 ---
 
-### 🔹 Privileged Access Management (PAM)
+### 🔹 Privileged Access Management
 - [`pam/`](./pam/)  
-  Privileged access request workflows, break-glass access handling, governance controls, and PAM control documentation.
+  Privileged access workflows, break-glass access, and PAM governance controls.
 
 ---
 
 ### 🔹 Access Governance & Reviews
 - [`access-review/`](./access-review/)  
-  Access certification workflows, entitlement validation, reviewer decision tracking, and remediation documentation.
+  Access certification workflows, reviewer decisions, and remediation tracking.
 
 ---
 
 ### 🔹 Compliance & Framework Mapping
 - [`nist-800-53-mapping/`](./nist-800-53-mapping/)  
-  IAM control mapping aligned to NIST SP 800-53 (IA and AC control families) to support audit and compliance readiness.
+  IAM control mapping aligned to NIST SP 800-53 (Rev. 5).
 
 ---
 
 ### 🔹 Industry Use Cases
 - [`healthcare-iam/`](./healthcare-iam/)  
-  Healthcare-focused IAM artifacts including EHR-style RBAC role design, break-glass emergency access workflows, HIPAA Security Rule alignment, and healthcare IAM capstone documentation.
+  Healthcare IAM artifacts including EHR role design, break-glass access workflows, HIPAA mapping, NIST alignment, and a healthcare IAM capstone summary.
 
 Each folder includes a README outlining scope, artifacts, and recommended reading order.
-
 
 ---
 
