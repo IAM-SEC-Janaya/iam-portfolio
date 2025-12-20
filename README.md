@@ -56,8 +56,7 @@ This portfolio is organized to reflect IAM as an **enterprise security program**
 ### 🔹 Industry Use Cases (Applied Learning)
 
 - **Healthcare IAM**  
-  A healthcare-focused IAM extension demonstrating how IAM principles apply in regulated healthcare environments.  
-  Artifacts include EHR-style RBAC role design, clinical vs administrative access separation, break-glass (emergency) access workflows, HIPAA Security Rule alignment, and healthcare IAM governance documentation.
+  A healthcare-focused IAM extension demonstrating how IAM principles apply in regulated healthcare environments.  Artifacts include EHR-style RBAC role design, clinical vs administrative access separation, break-glass (emergency) access workflows, HIPAA Security Rule alignment, and healthcare IAM governance documentation.
 
 > *Industry use cases demonstrate applied learning and domain adaptation, not over-claimed production experience.*
 
