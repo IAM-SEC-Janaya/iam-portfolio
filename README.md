@@ -28,6 +28,22 @@ The focus is on **practical IAM implementation**, including lifecycle management
   Privileged access request workflows, break-glass access handling, governance controls, and CyberArk-aligned examples.
 
 ---
+---
+
+## Healthcare IAM Focus (Applied Learning)
+
+This portfolio includes a dedicated **Healthcare IAM extension** that demonstrates how IAM principles are applied in healthcare environments to protect ePHI while supporting clinical workflows.
+
+While I do not yet have direct production healthcare IAM experience, this section reflects applied learning based on formal coursework, industry standards, and enterprise IAM practices. The artifacts translate healthcare regulatory requirements into practical IAM designs and governance documentation.
+
+**Healthcare IAM topics covered include:**
+- EHR-focused RBAC role design
+- Clinical vs administrative access separation
+- Break-glass (emergency) access for patient care
+- HIPAA Security Rule alignment
+- Healthcare IAM alignment with NIST 800-53
+
+📂 See: [`healthcare-iam/`](./healthcare-iam/)
 
 ## Skills Demonstrated
 
